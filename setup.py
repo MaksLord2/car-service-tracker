@@ -6,7 +6,7 @@ setup(
     py_modules=['car_service_tracker'],
     entry_points={
         'console_scripts': [
-            'car-service-tracker = car_service_tracker:main',
+            'car-service-tracker = lab1:main',
         ],
     },
 )

@@ -1,0 +1,2 @@
+[console_scripts]
+car-service-tracker = car_service_tracker:main
