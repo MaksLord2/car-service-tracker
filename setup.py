@@ -3,10 +3,17 @@ from setuptools import setup
 setup(
     name='car_service_tracker',
     version='1.0',
-    py_modules=['car_service_tracker'],
+    description='Система обліку технічного обслуговування автомобілів',
+    author='MaksLord2',
+    py_modules=['lab1'],  # ім’я .py файлу без розширення
     entry_points={
         'console_scripts': [
             'car-service-tracker = lab1:main',
         ],
     },
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
 )

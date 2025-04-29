@@ -58,7 +58,7 @@ def main():
             add_service(data)
         elif choice == '2':
             show_history(data)
-        if choice == '3':
+        elif choice == '3':
             show_last_service(data)
         elif choice == '4':
             break
