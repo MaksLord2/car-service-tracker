@@ -9,7 +9,7 @@ setup(
     entry_points={
         'console_scripts': [
             'car-service-tracker = lab1:main',
-            'tests = test_lab3:main'
+            'tests = test_lab3.main'
         ],
     },
     classifiers=[
