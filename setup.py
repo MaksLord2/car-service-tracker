@@ -5,7 +5,7 @@ setup(
     version='1.0',
     description='Система обліку технічного обслуговування автомобілів',
     author='MaksLord2',
-    py_modules=['lab1'],  # ім’я .py файлу без розширення
+    py_modules=['lab1', 'test_lab3'],  # ім’я .py файлу без розширення
     entry_points={
         'console_scripts': [
             'car-service-tracker = lab1:main',

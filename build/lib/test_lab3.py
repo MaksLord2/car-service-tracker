@@ -43,8 +43,5 @@ class TestServiceFunctions(unittest.TestCase):
             lab1.show_last_service(data)
             mock_print.assert_called_with("VIN123: 2023-06-01 | Brake @ 15000 км")
 
-def main():
-    unittest.main()
-
 if __name__ == '__main__':
-    main()
+    unittest.main()
